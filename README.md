@@ -505,6 +505,20 @@ P99.9:            13.00 us
 
 These values are environment-dependent and can vary with CPU architecture, compiler, optimization level, operating system, memory behavior, and system load.
 
+## 13.1 Benchmark Environment
+
+All reported benchmark results were performed locally on an **ASUS Vivobook laptop** rather than a dedicated server or workstation.
+
+```text
+Device:       ASUS Vivobook
+Processor:    12th Gen Intel Core i5-12500H
+RAM:          16 GB
+Graphics:     Intel Iris Xe Graphics
+OS:           64-bit Windows
+```
+
+The HFT benchmark therefore represents the performance observed on this specific laptop configuration. It should not be interpreted as a hardware-independent measure of matching-engine performance.
+
 ---
 
 # 14. Concurrency Model
